@@ -20,7 +20,7 @@ tooltip {
     background:@background;
     color: @color7;
 }
-#clock:hover, #custom-pacman:hover, #pulseaudio:hover, #network:hover{
+#clock:hover, #custom-pacman:hover, #pulseaudio:hover, #custom-power:hover{
     transition: all .3s ease;
     color:@color9;
 }
@@ -29,7 +29,7 @@ tooltip {
     color:@color7;
     transition: all .3s ease;
 }
-#custom-pacman, #pulseaudio, #network, #tray {
+#custom-pacman, #pulseaudio, #tray, #custom-power{
     padding: 0px 5px;
     transition: all .3s ease;
     color:@color7;

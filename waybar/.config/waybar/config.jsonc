@@ -13,7 +13,7 @@
         "group/expand",
         "custom/pacman",
         "pulseaudio",
-        "network"
+        "custom/power"
     ],
 
     "hyprland/workspaces": {
@@ -42,24 +42,17 @@
     },
     "custom/pacman": {
         "format": "󰅢{}",
-            "interval": 30,   
+            "interval": 30,
             "exec": "checkupdates | wc -l",
             "exec-if": "exit 0",
             "on-click": "kitty sh -c 'yay -Syu; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar",
             "signal": 8,
             "tooltip": false
     },
-    "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "",
-        "format-ethernet": "󰈁",
-        "tooltip-format": "{icon} {gwaddr}",
-        "format-icons": {
-            "wifi": "",
-            "ethernet": "󰈁",
-            "linked": "",
-            "disconnected": "󰤮"
-        }
+    "custom/power": {
+      "format": "⏻",
+      "on-click": "wlogout",
+      "tooltip": false
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
