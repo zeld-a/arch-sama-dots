@@ -41,7 +41,7 @@
         }
     },
     "custom/pacman": {
-        "format": "󰅢{}",
+        "format": "󰅢 {}",
             "interval": 30,
             "exec": "checkupdates | wc -l",
             "exec-if": "exit 0",
@@ -56,7 +56,7 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon}{volume}%",
+        "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon}",
         "format-bluetooth-muted": " {icon}",
         "format-muted": "",
