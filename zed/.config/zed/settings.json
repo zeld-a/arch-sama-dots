@@ -1,0 +1,83 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+	"title_bar": {
+  "show_branch_icon": true,
+  "show_project_items": true,
+  "show_branch_name": true
+ },
+ "debugger": {
+  "button": true
+ },
+ "search": {
+  "button": true
+ },
+ "diagnostics": {
+  "button": true
+ },
+ "status_bar": {
+  "cursor_position_button": true,
+  "active_language_button": true
+ },
+ "project_panel": {
+  "button": true
+ },
+ "bottom_dock_layout": "contained",
+ "agent": {
+  "default_profile": "ask",
+  "default_model": {
+   "provider": "copilot_chat",
+   "model": "claude-sonnet-4"
+  },
+  "model_parameters": []
+ },
+ "base_keymap": "VSCode",
+	"ssh_connections": [
+		{
+			"host": "192.168.4.91",
+			"username": "chrisg",
+			"projects": [
+				{
+					"paths": ["/home/chrisg"]
+				}
+			]
+		}
+	],
+	"ui_font_family": "SauceCodePro Nerd Font",
+	"ui_font_size": 16,
+
+	"buffer_font_family": "SauceCodePro Nerd Font",
+	"buffer_font_size": 18,
+	"buffer_line_height": "standard",
+
+	"terminal": {
+		"button": true,
+  "font_family": "SauceCodePro Nerd Font",
+		"font_size": 14,
+		"line_height": "standard"
+	},
+
+	"theme": {
+		"mode": "system",
+		"light": "Carbonfox - blurred",
+		"dark": "One Dark"
+	},
+
+	"autosave": {
+		"after_delay": {
+			"milliseconds": 250
+		}
+	},
+
+	"show_edit_predictions": false,
+
+	"tab_size": 4,
+	"hard_tabs": true,
+	"cursor_shape": "underline"
+}
