@@ -1,4 +1,4 @@
-2025/10/13-20:06:27.630 6d48 Reusing MANIFEST /home/chrisg/.config/vesktop/sessionData/shared_proto_db/MANIFEST-000001
-2025/10/13-20:06:27.630 6d48 Recovering log #3
-2025/10/13-20:06:27.630 6d48 (ignoring error) /home/chrisg/.config/vesktop/sessionData/shared_proto_db/000003.log: dropping 1317 bytes; Corruption: checksum mismatch
-2025/10/13-20:06:27.630 6d48 Reusing old log /home/chrisg/.config/vesktop/sessionData/shared_proto_db/000003.log 
+2025/10/16-11:04:16.884 3c65f Reusing MANIFEST /home/chrisg/.config/vesktop/sessionData/shared_proto_db/MANIFEST-000001
+2025/10/16-11:04:16.884 3c65f Recovering log #3
+2025/10/16-11:04:16.884 3c65f (ignoring error) /home/chrisg/.config/vesktop/sessionData/shared_proto_db/000003.log: dropping 2283 bytes; Corruption: checksum mismatch
+2025/10/16-11:04:16.885 3c65f Reusing old log /home/chrisg/.config/vesktop/sessionData/shared_proto_db/000003.log 

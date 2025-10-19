@@ -1,3 +1,234 @@
-2025/10/15-01:23:23.616 d47 Reusing MANIFEST /home/chrisg/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2025/10/15-01:23:23.633 d47 Recovering log #2663
-2025/10/15-01:23:23.633 d47 Reusing old log /home/chrisg/.config/vesktop/sessionData/Local Storage/leveldb/002663.log 
+2025/10/19-00:32:03.432 1c2e9 Reusing MANIFEST /home/chrisg/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/10/19-00:32:03.448 1c2e9 Recovering log #2799
+2025/10/19-00:32:03.449 1c2e9 Reusing old log /home/chrisg/.config/vesktop/sessionData/Local Storage/leveldb/002799.log 
+2025/10/19-00:33:03.452 1c2e9 Level-0 table #2803: started
+2025/10/19-00:33:03.457 1c2e9 Level-0 table #2803: 48942 bytes OK
+2025/10/19-00:33:03.462 1c2e9 Delete type=0 #2799
+2025/10/19-00:40:11.018 1c2ea Level-0 table #2805: started
+2025/10/19-00:40:11.023 1c2ea Level-0 table #2805: 31228 bytes OK
+2025/10/19-00:40:11.028 1c2ea Delete type=0 #2802
+2025/10/19-00:40:11.028 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-00:40:11.033 1c2ea Generated table #2806@0: 69 keys, 60711 bytes
+2025/10/19-00:40:11.033 1c2ea Compacted 4@0 + 1@1 files => 60711 bytes
+2025/10/19-00:40:11.039 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-00:40:11.039 1c2ea Delete type=2 #2800
+2025/10/19-00:40:11.039 1c2ea Delete type=2 #2797
+2025/10/19-00:40:11.039 1c2ea Delete type=2 #2805
+2025/10/19-00:40:11.039 1c2ea Delete type=2 #2794
+2025/10/19-00:40:11.039 1c2ea Delete type=2 #2803
+2025/10/19-01:06:53.476 1c2ea Level-0 table #2808: started
+2025/10/19-01:06:53.480 1c2ea Level-0 table #2808: 40653 bytes OK
+2025/10/19-01:06:53.485 1c2ea Delete type=0 #2804
+2025/10/19-01:07:18.788 1c2ea Level-0 table #2810: started
+2025/10/19-01:07:18.792 1c2ea Level-0 table #2810: 37998 bytes OK
+2025/10/19-01:07:18.797 1c2ea Delete type=0 #2807
+2025/10/19-01:07:39.777 1c2ea Level-0 table #2812: started
+2025/10/19-01:07:39.782 1c2ea Level-0 table #2812: 38697 bytes OK
+2025/10/19-01:07:39.787 1c2ea Delete type=0 #2809
+2025/10/19-01:08:02.988 1c2ea Level-0 table #2814: started
+2025/10/19-01:08:02.992 1c2ea Level-0 table #2814: 37945 bytes OK
+2025/10/19-01:08:02.997 1c2ea Delete type=0 #2811
+2025/10/19-01:08:02.997 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-01:08:03.001 1c2ea Generated table #2815@0: 69 keys, 60723 bytes
+2025/10/19-01:08:03.001 1c2ea Compacted 4@0 + 1@1 files => 60723 bytes
+2025/10/19-01:08:03.006 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-01:08:03.006 1c2ea Delete type=2 #2810
+2025/10/19-01:08:03.006 1c2ea Delete type=2 #2814
+2025/10/19-01:08:03.006 1c2ea Delete type=2 #2812
+2025/10/19-01:08:03.006 1c2ea Delete type=2 #2806
+2025/10/19-01:08:03.007 1c2ea Delete type=2 #2808
+2025/10/19-01:08:27.475 1c2ea Level-0 table #2817: started
+2025/10/19-01:08:27.479 1c2ea Level-0 table #2817: 37862 bytes OK
+2025/10/19-01:08:27.484 1c2ea Delete type=0 #2813
+2025/10/19-01:08:56.422 1c2ea Level-0 table #2819: started
+2025/10/19-01:08:56.426 1c2ea Level-0 table #2819: 38522 bytes OK
+2025/10/19-01:08:56.431 1c2ea Delete type=0 #2816
+2025/10/19-01:09:28.111 1c2ea Level-0 table #2821: started
+2025/10/19-01:09:28.115 1c2ea Level-0 table #2821: 37792 bytes OK
+2025/10/19-01:09:28.121 1c2ea Delete type=0 #2818
+2025/10/19-01:12:03.807 1c2ea Level-0 table #2823: started
+2025/10/19-01:12:03.811 1c2ea Level-0 table #2823: 38458 bytes OK
+2025/10/19-01:12:03.816 1c2ea Delete type=0 #2820
+2025/10/19-01:12:03.816 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-01:12:03.820 1c2ea Generated table #2824@0: 69 keys, 60659 bytes
+2025/10/19-01:12:03.820 1c2ea Compacted 4@0 + 1@1 files => 60659 bytes
+2025/10/19-01:12:03.825 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-01:12:03.825 1c2ea Delete type=2 #2821
+2025/10/19-01:12:03.825 1c2ea Delete type=2 #2815
+2025/10/19-01:12:03.825 1c2ea Delete type=2 #2817
+2025/10/19-01:12:03.825 1c2ea Delete type=2 #2819
+2025/10/19-01:12:03.825 1c2ea Delete type=2 #2823
+2025/10/19-01:16:03.807 1c2ea Level-0 table #2826: started
+2025/10/19-01:16:03.811 1c2ea Level-0 table #2826: 38402 bytes OK
+2025/10/19-01:16:03.816 1c2ea Delete type=0 #2822
+2025/10/19-01:19:03.806 1c2ea Level-0 table #2828: started
+2025/10/19-01:19:03.810 1c2ea Level-0 table #2828: 30397 bytes OK
+2025/10/19-01:19:03.815 1c2ea Delete type=0 #2825
+2025/10/19-01:23:03.806 1c2ea Level-0 table #2830: started
+2025/10/19-01:23:03.810 1c2ea Level-0 table #2830: 39517 bytes OK
+2025/10/19-01:23:03.815 1c2ea Delete type=0 #2827
+2025/10/19-01:27:03.806 1c2ea Level-0 table #2832: started
+2025/10/19-01:27:03.810 1c2ea Level-0 table #2832: 38242 bytes OK
+2025/10/19-01:27:03.815 1c2ea Delete type=0 #2829
+2025/10/19-01:27:03.815 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-01:27:03.819 1c2ea Generated table #2833@0: 69 keys, 60631 bytes
+2025/10/19-01:27:03.819 1c2ea Compacted 4@0 + 1@1 files => 60631 bytes
+2025/10/19-01:27:03.824 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-01:27:03.824 1c2ea Delete type=2 #2830
+2025/10/19-01:27:03.824 1c2ea Delete type=2 #2832
+2025/10/19-01:27:03.824 1c2ea Delete type=2 #2826
+2025/10/19-01:27:03.824 1c2ea Delete type=2 #2824
+2025/10/19-01:27:03.824 1c2ea Delete type=2 #2828
+2025/10/19-01:31:03.807 1c2ea Level-0 table #2835: started
+2025/10/19-01:31:03.811 1c2ea Level-0 table #2835: 39221 bytes OK
+2025/10/19-01:31:03.816 1c2ea Delete type=0 #2831
+2025/10/19-01:34:03.807 1c2ea Level-0 table #2837: started
+2025/10/19-01:34:03.822 1c2ea Level-0 table #2837: 35036 bytes OK
+2025/10/19-01:34:03.828 1c2ea Delete type=0 #2834
+2025/10/19-01:38:03.807 1c2ea Level-0 table #2839: started
+2025/10/19-01:38:03.811 1c2ea Level-0 table #2839: 39901 bytes OK
+2025/10/19-01:38:03.816 1c2ea Delete type=0 #2836
+2025/10/19-01:42:03.806 1c2ea Level-0 table #2841: started
+2025/10/19-01:42:03.810 1c2ea Level-0 table #2841: 38584 bytes OK
+2025/10/19-01:42:03.815 1c2ea Delete type=0 #2838
+2025/10/19-01:42:03.815 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-01:42:03.819 1c2ea Generated table #2842@0: 69 keys, 60802 bytes
+2025/10/19-01:42:03.819 1c2ea Compacted 4@0 + 1@1 files => 60802 bytes
+2025/10/19-01:42:03.824 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-01:42:03.824 1c2ea Delete type=2 #2841
+2025/10/19-01:42:03.824 1c2ea Delete type=2 #2833
+2025/10/19-01:42:03.824 1c2ea Delete type=2 #2839
+2025/10/19-01:42:03.824 1c2ea Delete type=2 #2837
+2025/10/19-01:42:03.824 1c2ea Delete type=2 #2835
+2025/10/19-01:46:03.806 1c2ea Level-0 table #2844: started
+2025/10/19-01:46:03.810 1c2ea Level-0 table #2844: 38530 bytes OK
+2025/10/19-01:46:03.815 1c2ea Delete type=0 #2840
+2025/10/19-01:49:03.806 1c2ea Level-0 table #2846: started
+2025/10/19-01:49:03.810 1c2ea Level-0 table #2846: 41407 bytes OK
+2025/10/19-01:49:03.815 1c2ea Delete type=0 #2843
+2025/10/19-01:51:03.807 1c2ea Level-0 table #2848: started
+2025/10/19-01:51:03.811 1c2ea Level-0 table #2848: 45958 bytes OK
+2025/10/19-01:51:03.818 1c2ea Delete type=0 #2845
+2025/10/19-01:56:03.807 1c2ea Level-0 table #2850: started
+2025/10/19-01:56:03.811 1c2ea Level-0 table #2850: 39518 bytes OK
+2025/10/19-01:56:03.817 1c2ea Delete type=0 #2847
+2025/10/19-01:56:03.817 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-01:56:03.821 1c2ea Generated table #2851@0: 69 keys, 60989 bytes
+2025/10/19-01:56:03.821 1c2ea Compacted 4@0 + 1@1 files => 60989 bytes
+2025/10/19-01:56:03.826 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-01:56:03.826 1c2ea Delete type=2 #2842
+2025/10/19-01:56:03.826 1c2ea Delete type=2 #2850
+2025/10/19-01:56:03.826 1c2ea Delete type=2 #2846
+2025/10/19-01:56:03.826 1c2ea Delete type=2 #2844
+2025/10/19-01:56:03.826 1c2ea Delete type=2 #2848
+2025/10/19-02:01:03.807 1c2ea Level-0 table #2853: started
+2025/10/19-02:01:03.811 1c2ea Level-0 table #2853: 39453 bytes OK
+2025/10/19-02:01:03.816 1c2ea Delete type=0 #2849
+2025/10/19-02:07:03.806 1c2ea Level-0 table #2855: started
+2025/10/19-02:07:03.810 1c2ea Level-0 table #2855: 39558 bytes OK
+2025/10/19-02:07:03.815 1c2ea Delete type=0 #2852
+2025/10/19-02:20:03.806 1c2ea Level-0 table #2857: started
+2025/10/19-02:20:03.810 1c2ea Level-0 table #2857: 31981 bytes OK
+2025/10/19-02:20:03.815 1c2ea Delete type=0 #2854
+2025/10/19-02:27:03.806 1c2ea Level-0 table #2859: started
+2025/10/19-02:27:03.810 1c2ea Level-0 table #2859: 30328 bytes OK
+2025/10/19-02:27:03.816 1c2ea Delete type=0 #2856
+2025/10/19-02:27:03.816 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-02:27:03.820 1c2ea Generated table #2860@0: 69 keys, 61014 bytes
+2025/10/19-02:27:03.820 1c2ea Compacted 4@0 + 1@1 files => 61014 bytes
+2025/10/19-02:27:03.825 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-02:27:03.825 1c2ea Delete type=2 #2859
+2025/10/19-02:27:03.825 1c2ea Delete type=2 #2857
+2025/10/19-02:27:03.825 1c2ea Delete type=2 #2853
+2025/10/19-02:27:03.825 1c2ea Delete type=2 #2855
+2025/10/19-02:27:03.825 1c2ea Delete type=2 #2851
+2025/10/19-02:33:03.807 1c2ea Level-0 table #2862: started
+2025/10/19-02:33:03.811 1c2ea Level-0 table #2862: 30107 bytes OK
+2025/10/19-02:33:03.816 1c2ea Delete type=0 #2858
+2025/10/19-02:44:03.806 1c2ea Level-0 table #2864: started
+2025/10/19-02:44:03.810 1c2ea Level-0 table #2864: 40544 bytes OK
+2025/10/19-02:44:03.815 1c2ea Delete type=0 #2861
+2025/10/19-02:48:03.806 1c2ea Level-0 table #2866: started
+2025/10/19-02:48:03.810 1c2ea Level-0 table #2866: 38699 bytes OK
+2025/10/19-02:48:03.815 1c2ea Delete type=0 #2863
+2025/10/19-02:53:03.807 1c2ea Level-0 table #2868: started
+2025/10/19-02:53:03.811 1c2ea Level-0 table #2868: 30116 bytes OK
+2025/10/19-02:53:03.816 1c2ea Delete type=0 #2865
+2025/10/19-02:53:03.816 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-02:53:03.820 1c2ea Generated table #2869@0: 69 keys, 60962 bytes
+2025/10/19-02:53:03.820 1c2ea Compacted 4@0 + 1@1 files => 60962 bytes
+2025/10/19-02:53:03.825 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-02:53:03.826 1c2ea Delete type=2 #2860
+2025/10/19-02:53:03.826 1c2ea Delete type=2 #2864
+2025/10/19-02:53:03.826 1c2ea Delete type=2 #2868
+2025/10/19-02:53:03.826 1c2ea Delete type=2 #2866
+2025/10/19-02:53:03.826 1c2ea Delete type=2 #2862
+2025/10/19-03:01:03.806 1c2ea Level-0 table #2871: started
+2025/10/19-03:01:03.810 1c2ea Level-0 table #2871: 30162 bytes OK
+2025/10/19-03:01:03.815 1c2ea Delete type=0 #2867
+2025/10/19-03:08:03.806 1c2ea Level-0 table #2873: started
+2025/10/19-03:08:03.811 1c2ea Level-0 table #2873: 30257 bytes OK
+2025/10/19-03:08:03.816 1c2ea Delete type=0 #2870
+2025/10/19-03:17:03.806 1c2ea Level-0 table #2875: started
+2025/10/19-03:17:03.811 1c2ea Level-0 table #2875: 30850 bytes OK
+2025/10/19-03:17:03.816 1c2ea Delete type=0 #2872
+2025/10/19-03:27:03.807 1c2ea Level-0 table #2877: started
+2025/10/19-03:27:03.813 1c2ea Level-0 table #2877: 31184 bytes OK
+2025/10/19-03:27:03.819 1c2ea Delete type=0 #2874
+2025/10/19-03:27:03.819 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-03:27:03.823 1c2ea Generated table #2878@0: 69 keys, 60981 bytes
+2025/10/19-03:27:03.823 1c2ea Compacted 4@0 + 1@1 files => 60981 bytes
+2025/10/19-03:27:03.828 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-03:27:03.828 1c2ea Delete type=2 #2877
+2025/10/19-03:27:03.828 1c2ea Delete type=2 #2871
+2025/10/19-03:27:03.828 1c2ea Delete type=2 #2875
+2025/10/19-03:27:03.828 1c2ea Delete type=2 #2869
+2025/10/19-03:27:03.828 1c2ea Delete type=2 #2873
+2025/10/19-03:37:03.805 1c2ea Level-0 table #2880: started
+2025/10/19-03:37:03.810 1c2ea Level-0 table #2880: 30943 bytes OK
+2025/10/19-03:37:03.815 1c2ea Delete type=0 #2876
+2025/10/19-03:43:03.807 1c2ea Level-0 table #2882: started
+2025/10/19-03:43:03.811 1c2ea Level-0 table #2882: 39554 bytes OK
+2025/10/19-03:43:03.816 1c2ea Delete type=0 #2879
+2025/10/19-03:48:03.807 1c2ea Level-0 table #2884: started
+2025/10/19-03:48:03.812 1c2ea Level-0 table #2884: 39312 bytes OK
+2025/10/19-03:48:03.817 1c2ea Delete type=0 #2881
+2025/10/19-03:52:03.806 1c2ea Level-0 table #2886: started
+2025/10/19-03:52:03.811 1c2ea Level-0 table #2886: 38696 bytes OK
+2025/10/19-03:52:03.816 1c2ea Delete type=0 #2883
+2025/10/19-03:52:03.816 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-03:52:03.820 1c2ea Generated table #2887@0: 69 keys, 60979 bytes
+2025/10/19-03:52:03.820 1c2ea Compacted 4@0 + 1@1 files => 60979 bytes
+2025/10/19-03:52:03.825 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-03:52:03.825 1c2ea Delete type=2 #2878
+2025/10/19-03:52:03.825 1c2ea Delete type=2 #2884
+2025/10/19-03:52:03.825 1c2ea Delete type=2 #2886
+2025/10/19-03:52:03.825 1c2ea Delete type=2 #2880
+2025/10/19-03:52:03.825 1c2ea Delete type=2 #2882
+2025/10/19-03:56:03.806 1c2ea Level-0 table #2889: started
+2025/10/19-03:56:03.810 1c2ea Level-0 table #2889: 38894 bytes OK
+2025/10/19-03:56:03.815 1c2ea Delete type=0 #2885
+2025/10/19-04:01:03.807 1c2ea Level-0 table #2891: started
+2025/10/19-04:01:03.811 1c2ea Level-0 table #2891: 39511 bytes OK
+2025/10/19-04:01:03.816 1c2ea Delete type=0 #2888
+2025/10/19-04:10:03.807 1c2ea Level-0 table #2893: started
+2025/10/19-04:10:03.811 1c2ea Level-0 table #2893: 31135 bytes OK
+2025/10/19-04:10:03.816 1c2ea Delete type=0 #2890
+2025/10/19-04:16:03.806 1c2ea Level-0 table #2895: started
+2025/10/19-04:16:03.810 1c2ea Level-0 table #2895: 30175 bytes OK
+2025/10/19-04:16:03.816 1c2ea Delete type=0 #2892
+2025/10/19-04:16:03.817 1c2ea Compacting 4@0 + 1@1 files
+2025/10/19-04:16:03.821 1c2ea Generated table #2896@0: 69 keys, 61000 bytes
+2025/10/19-04:16:03.821 1c2ea Compacted 4@0 + 1@1 files => 61000 bytes
+2025/10/19-04:16:03.826 1c2ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-04:16:03.826 1c2ea Delete type=2 #2891
+2025/10/19-04:16:03.826 1c2ea Delete type=2 #2889
+2025/10/19-04:16:03.826 1c2ea Delete type=2 #2887
+2025/10/19-04:16:03.826 1c2ea Delete type=2 #2895
+2025/10/19-04:16:03.826 1c2ea Delete type=2 #2893
+2025/10/19-04:25:03.807 1c2ea Level-0 table #2898: started
+2025/10/19-04:25:03.811 1c2ea Level-0 table #2898: 31204 bytes OK
+2025/10/19-04:25:03.817 1c2ea Delete type=0 #2894
+2025/10/19-04:31:03.807 1c2ea Level-0 table #2900: started
+2025/10/19-04:31:03.811 1c2ea Level-0 table #2900: 30214 bytes OK
+2025/10/19-04:31:03.816 1c2ea Delete type=0 #2897

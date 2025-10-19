@@ -7,37 +7,38 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+	"icon_theme": "Material Icon Theme",
 	"title_bar": {
-  "show_branch_icon": true,
-  "show_project_items": true,
-  "show_branch_name": true
- },
- "debugger": {
-  "button": true
- },
- "search": {
-  "button": true
- },
- "diagnostics": {
-  "button": true
- },
- "status_bar": {
-  "cursor_position_button": true,
-  "active_language_button": true
- },
- "project_panel": {
-  "button": true
- },
- "bottom_dock_layout": "contained",
- "agent": {
-  "default_profile": "ask",
-  "default_model": {
-   "provider": "copilot_chat",
-   "model": "claude-sonnet-4"
-  },
-  "model_parameters": []
- },
- "base_keymap": "VSCode",
+		"show_branch_icon": true,
+		"show_project_items": true,
+		"show_branch_name": true
+	},
+	"debugger": {
+		"button": true
+	},
+	"search": {
+		"button": true
+	},
+	"diagnostics": {
+		"button": true
+	},
+	"status_bar": {
+		"cursor_position_button": true,
+		"active_language_button": true
+	},
+	"project_panel": {
+		"button": true
+	},
+	"bottom_dock_layout": "contained",
+	"agent": {
+		"default_profile": "ask",
+		"default_model": {
+			"provider": "copilot_chat",
+			"model": "gpt-4.1"
+		},
+		"model_parameters": []
+	},
+	"base_keymap": "VSCode",
 	"ssh_connections": [
 		{
 			"host": "192.168.4.91",
@@ -49,35 +50,36 @@
 			]
 		}
 	],
-	"ui_font_family": "SauceCodePro Nerd Font",
+	"ui_font_family": "ProFont IIx Nerd Font Mono",
 	"ui_font_size": 16,
 
-	"buffer_font_family": "SauceCodePro Nerd Font",
+	"buffer_font_family": "ProFont IIx Nerd Font Mono",
 	"buffer_font_size": 18,
 	"buffer_line_height": "standard",
 
 	"terminal": {
+		"dock": "bottom",
 		"button": true,
-  "font_family": "SauceCodePro Nerd Font",
+		"font_family": "ProFont IIx Nerd Font Mono",
 		"font_size": 14,
 		"line_height": "standard"
 	},
 
 	"theme": {
 		"mode": "system",
-		"light": "Carbonfox - blurred",
+		"light": "Gruvbox Baby",
 		"dark": "One Dark"
-	},
-
-	"autosave": {
-		"after_delay": {
-			"milliseconds": 250
-		}
 	},
 
 	"show_edit_predictions": false,
 
 	"tab_size": 4,
 	"hard_tabs": true,
-	"cursor_shape": "underline"
+	"cursor_shape": "underline",
+
+	"lsp": {
+		"rust-analyzer": {
+			"enable_lsp_tasks": false
+		}
+	}
 }
