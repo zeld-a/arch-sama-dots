@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+	"outline_panel": {
+  "dock": "right"
+ },
+ "vim_mode": false,
+	"confirm_quit": false,
 	"icon_theme": "Material Icon Theme",
 	"title_bar": {
 		"show_branch_icon": true,
@@ -27,6 +32,13 @@
 		"active_language_button": true
 	},
 	"project_panel": {
+		"hide_gitignore": true,
+		"git_status": true,
+		"folder_icons": false,
+		"file_icons": false,
+		"entry_spacing": "standard",
+		"default_width": 250.0,
+		"dock": "right",
 		"button": true
 	},
 	"bottom_dock_layout": "contained",
@@ -34,7 +46,7 @@
 		"default_profile": "ask",
 		"default_model": {
 			"provider": "copilot_chat",
-			"model": "gpt-4.1"
+			"model": "gpt-4o"
 		},
 		"model_parameters": []
 	},
@@ -54,7 +66,7 @@
 	"ui_font_size": 16,
 
 	"buffer_font_family": "ProFont IIx Nerd Font Mono",
-	"buffer_font_size": 18,
+	"buffer_font_size": 16,
 	"buffer_line_height": "standard",
 
 	"terminal": {
@@ -67,7 +79,7 @@
 
 	"theme": {
 		"mode": "system",
-		"light": "Gruvbox Baby",
+		"light": "Catppuccin Espresso (Blur) [Light]",
 		"dark": "One Dark"
 	},
 
@@ -79,7 +91,7 @@
 
 	"lsp": {
 		"rust-analyzer": {
-			"enable_lsp_tasks": false
+			"enabled": false
 		}
 	}
 }

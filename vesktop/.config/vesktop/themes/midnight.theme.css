@@ -15,8 +15,8 @@
 
 body {
 	/* font options */
-	--font: "ProFont IIx Nerd Font Mono"; /* change to '' for default discord font */
-	--code-font: "ProFont IIx Nerd Font Mono"; /* change to '' for default discord font */
+	--font: "ProFont IIx Nerd Font"; /* change to '' for default discord font */
+	--code-font: "ProFont IIx Nerd Font"; /* change to '' for default discord font */
 	font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
 
 	/* sizes */
