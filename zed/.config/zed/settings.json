@@ -7,8 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-	"outline_panel": {
-  "dock": "right"
+	"autosave": {
+  "after_delay": {
+   "milliseconds": 1000
+  }
+ },
+ "outline_panel": {
+  "dock": "left"
  },
  "vim_mode": false,
 	"confirm_quit": false,
@@ -43,10 +48,11 @@
 	},
 	"bottom_dock_layout": "contained",
 	"agent": {
-		"default_profile": "ask",
+		"dock": "left",
+  "default_profile": "ask",
 		"default_model": {
 			"provider": "copilot_chat",
-			"model": "gpt-4o"
+			"model": "claude-sonnet-4.5"
 		},
 		"model_parameters": []
 	},
