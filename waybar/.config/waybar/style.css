@@ -1,87 +1,59 @@
-@import url("../../.cache/wal/colors-waybar.css");
+@import "../../.cache/wal/colors-waybar.css";
 
 * {
-	/* `otf-font-awesome` is required to be installed for icons */
-	font-family:
-		ProFont IIx Nerd Font Mono,
-		sans-serif;
-	font-size: 15px;
+	background-color: @background;
+	color: @foreground;
+
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+	font-family: "Google Sans, ProFont IIx Nerd Font Mono";
+	font-size: 16px;
 }
 
-window#waybar {
-	all: unset;
-}
-.modules-right,
-.modules-center,
 .modules-left {
-	padding: 7px;
-	margin: 8px 8px 0 8px;
-	border-radius: 5px;
-	background: alpha(@background, 0.7);
-	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+	margin-left: 8px;
 }
-tooltip {
-	background: @background;
-	color: @color7;
+
+.modules-right {
+	margin-right: 8px;
 }
-#clock:hover,
-#custom-pacman:hover,
-#pulseaudio:hover,
-#custom-power:hover {
-	transition: all 0.3s ease;
-	color: @color9;
-}
-#clock {
-	padding: 0px 5px;
-	color: @color7;
-	transition: all 0.3s ease;
-}
-#custom-pacman,
-#pulseaudio,
-#tray,
-#custom-power {
-	padding: 0px 5px;
-	transition: all 0.3s ease;
-	color: @color7;
-}
-#workspaces {
-	padding: 0px 5px;
-}
+
 #workspaces button {
-	all: unset;
-	padding: 0px 5px;
-	color: alpha(@color9, 0.5);
-	transition: all 0.2s ease;
+	all: initial;
+	padding: 0 6px;
+	margin: 0 1.5px;
+	min-width: 9px;
 }
-#workspaces button.active {
-	color: @color9;
-	border: none;
-	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
-}
+
 #workspaces button.empty {
-	color: alpha(@color9, 0.2);
-	border: none;
-	text-shadow: 0px 0px 1.5px rgba(0, 0, 0, 0.2);
+	opacity: 0.5;
 }
-#workspaces button.empty.active {
-	color: @color9;
-	border: none;
-	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
-}
-#group-expand {
-	padding: 0px 5px;
-	transition: all 0.3s ease;
-}
-#custom-expand {
-	padding: 0px 5px;
-	color: @color7;
-	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
-	transition: all 0.3s ease;
-}
-#custom-expand:hover {
-	color: @color9;
-	text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
-}
+
 #window {
-	color: @color7;
+	padding: 0 6px;
+}
+
+#pulseaudio,
+#custom-power,
+#tray,
+#bluetooth,
+#custom-pacman,
+#network,
+#custom-expand-icon,
+#custom-system-stats {
+	min-width: 12px;
+	margin: 0 7.5px;
+}
+
+tooltip {
+	padding: 2px;
+}
+
+#clock {
+	margin-left: 8.75px;
+}
+
+.hidden {
+	opacity: 0;
 }
