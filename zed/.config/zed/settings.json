@@ -68,7 +68,8 @@
 			]
 		}
 	],
-	"ui_font_family": "ProFont IIx Nerd Font Mono",
+	"ui_font_family": "Google Sans",
+	"ui_font_fallbacks": ["ProFont IIx Nerd Font Mono", "Roboto"],
 	"ui_font_size": 16,
 
 	"buffer_font_family": "ProFont IIx Nerd Font Mono",
@@ -83,11 +84,7 @@
 		"line_height": "standard"
 	},
 
-	"theme": {
-		"mode": "system",
-		"light": "Catppuccin Espresso (Blur) [Light]",
-		"dark": "One Dark"
-	},
+	"theme": "Custom Pywal Theme",
 
 	"show_edit_predictions": false,
 
@@ -95,9 +92,4 @@
 	"hard_tabs": true,
 	"cursor_shape": "underline",
 
-	"lsp": {
-		"rust-analyzer": {
-			"enabled": false
-		}
-	}
 }
